@@ -74,3 +74,9 @@ class ArxivController:
             
 
             self.article_crud.create(article_meta)
+
+
+if __name__ == "__main__":
+    ar = ArxivController()
+    ar.search_articles(query="deep learning")
+    ar.save_download()
