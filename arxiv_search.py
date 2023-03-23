@@ -17,7 +17,6 @@ class ArxivController:
 
     # save articles and download pdf files
     ar.save_download()
-    
     """
 
 
